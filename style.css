@@ -1,0 +1,51 @@
+/* ------- BASIC SETUP ------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ------- HEADING ------- */
+
+h2 {
+  font-size: 150%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+/* ------- IMAGE ------- */
+
+img {
+  display: inline-block;
+  width: 100px;
+}
+
+/* ------- BUTTON ------- */
+
+button {
+  font-size: 80%;
+  margin: 25px 5px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: #888;
+  color: #fff;
+  border: 1px solid #888;
+}
+
+/* Hide light theme Button */
+#theme2 {
+  display: none;
+}
+
+button:hover {
+  background-color: #e67e22;
+  color: #fff;
+  border: 1px solid #e67e22;
+}
